@@ -19,9 +19,7 @@ BaselineOfAWSToolbox >> baseline: spec [
 			spec
 				baseline: 'XMLParser'
 				with: [ 
-					spec
-						repository: 'github://pharo-contributions/XML-XMLParser/src';
-						loads: 'Core' ].
+					 ].
 			spec
 				package: 'AWS-Core' with: [ spec requires: #( 'NeoJSON' ) ];
 				package: 'AWS-Core-Tests' with: [ spec requires: #( 'AWS-Core' ) ];
